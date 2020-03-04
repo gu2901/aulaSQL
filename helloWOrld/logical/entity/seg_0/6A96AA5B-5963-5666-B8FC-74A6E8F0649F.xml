@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A96AA5B-5963-5666-B8FC-74A6E8F0649F" name="Implantação">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:33:02 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="1819C5D1-7010-C9FD-C5B5-5AE0B25B15D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:33:17 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="22DE086B-4CD0-895D-1370-C9A41D31A914">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:51:15 UTC</createdTime>
+<generatorID>6EFCA6DB-5F12-E42D-B8CB-963043C13191</generatorID>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<referedAttribute>96FF686E-FCA4-959C-4258-3F95DE9C9C6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="CB239973-C3C0-2716-78D7-1DDB10334B16">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:51:47 UTC</createdTime>
+<generatorID>AB7B7B66-A903-0A69-BD6A-C064D643B837</generatorID>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<referedAttribute>EDC95773-D89C-F6ED-C717-05265B5F0A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="AA036927-630B-DB15-C376-AA0D9DF60099">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:33:47 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="4E9A6C2A-C04F-4C8A-2E58-A67665C38AB0">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:34:16 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="86A4036F-51F9-E6DE-C8FC-221D68DEC3BB" name="Implantação PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:33:28 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1819C5D1-7010-C9FD-C5B5-5AE0B25B15D4</attributeRef>
+<attributeRef>22DE086B-4CD0-895D-1370-C9A41D31A914</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C8A54F8-9D7E-3F0E-02DE-F256A9A5F2BC" name="Dependente">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:31:56 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="8C0BCD40-BF66-DB4C-8353-04F198F0B333">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:38:14 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="DDEDA325-28C3-6236-7D26-42B050A53EDF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:50:11 UTC</createdTime>
+<generatorID>55DFDB57-761E-5AE5-08E4-1B67BB63A332</generatorID>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<referedAttribute>EDC95773-D89C-F6ED-C717-05265B5F0A6A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="07B8617F-014B-7B11-DF0F-B6D9B76C643C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:32:08 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="622A0FAE-B830-6CBC-55E2-80CA594F00AB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:32:23 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5BE5188-303C-71D5-3204-7C7AB0CF23C5" name="Dependente PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:38:27 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8C0BCD40-BF66-DB4C-8353-04F198F0B333</attributeRef>
+<attributeRef>DDEDA325-28C3-6236-7D26-42B050A53EDF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

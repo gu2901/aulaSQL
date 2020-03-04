@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCA9585E-D8C0-D235-1A04-CD4C4B30F70B" name="Projeto">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:32:48 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="96FF686E-FCA4-959C-4258-3F95DE9C9C6A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:34:43 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="7EFA6FB4-BA3D-59AF-5975-6C16D3AAF00A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:35:00 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="D98B8C43-B2F6-6FE2-11AB-1D0AF640BB5F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:35:38 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="A84F9F7A-E84C-E997-34C7-8CA18EFB1B95">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:35:52 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0CCEE447-ACEA-9EA0-5305-DD6DF699BFDC" name="Projeto PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-04 22:34:57 UTC</createdTime>
+<ownerDesignName>helloWOrld</ownerDesignName>
+<engineerTo>
+<item key="736F7ACC-601B-B30C-9228-A13100627012" value="true"/>
+<item key="83A23660-BF7D-8ADD-1A97-649BC2340FB7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>96FF686E-FCA4-959C-4258-3F95DE9C9C6A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
