@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1B5E350-D77C-579E-26D8-AE550DF4E23B" name="ATENDIMENTOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:02:58 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_atendimento" id="7F34C695-7711-E89E-4B63-DF7BB8136615">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:07:30 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_atendimento" id="3065A8C9-3AA4-2247-F813-4D23F470300D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:07:44 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_paciente" id="566D2858-C3D2-D13F-6811-73851EFD3332">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:14:45 UTC</createdTime>
+<generatorID>A515F4D0-092D-E26C-8E68-93C6FB0B1589</generatorID>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<referedAttribute>839B73D2-6F79-138E-0FEF-7E90A9291172</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_CRM" id="7408D199-E0CB-27EE-5F7E-4B671226BBA1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:15:47 UTC</createdTime>
+<generatorID>3989B261-72F0-E634-7F9C-3207B877C8C9</generatorID>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<referedAttribute>637A293E-1712-1BC7-937D-ECBA546877A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unidade" id="391B5748-4519-5525-1FC6-D12D3BD41022">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:15:54 UTC</createdTime>
+<generatorID>F46F3F1E-8692-80BC-30B0-43E384C4DC7A</generatorID>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<referedAttribute>0BC7F9D0-605C-D2E9-1029-CCF16DFCA16B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93FB04C4-244F-B7E5-CE6B-5FAF3ABA069A" name="ATENDIMENTOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:14:45 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>566D2858-C3D2-D13F-6811-73851EFD3332</attributeRef>
+<attributeRef>7F34C695-7711-E89E-4B63-DF7BB8136615</attributeRef>
+<attributeRef>7408D199-E0CB-27EE-5F7E-4B671226BBA1</attributeRef>
+<attributeRef>391B5748-4519-5525-1FC6-D12D3BD41022</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

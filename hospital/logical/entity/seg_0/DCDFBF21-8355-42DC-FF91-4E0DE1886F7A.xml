@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCDFBF21-8355-42DC-FF91-4E0DE1886F7A" name="MEDICOS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:08:29 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_CRM" id="637A293E-1712-1BC7-937D-ECBA546877A4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:08:45 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_medico" id="CD550F89-A50B-60F6-2AC7-2DE4A1DEEBF2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:09:02 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="espcialidade" id="09E2C813-9D4D-689F-70E3-F4EC86DF8724">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:09:31 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7166C01A-23E3-25CD-E32D-FBD6D6DA6AEE" name="MEDICOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-05 00:08:56 UTC</createdTime>
+<ownerDesignName>hospital</ownerDesignName>
+<engineerTo>
+<item key="6A793F59-EB41-424F-A32F-1FD248544D7F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>637A293E-1712-1BC7-937D-ECBA546877A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
